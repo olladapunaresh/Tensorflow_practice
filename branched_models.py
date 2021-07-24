@@ -44,7 +44,7 @@ y2_output=Dense(units='1',name='y2_output')(third_dense)
 model=Model(inputs=input_layer,outputs=[y1_output,y2_output])
 
 print(model.summary())
-Dense(units='1', activation=tf.keras.activations.sigmoid, name='wine_type')(x)
+
 
 #Configure the parameters
 

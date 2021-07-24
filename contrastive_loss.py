@@ -1,7 +1,7 @@
 from tensorflow.keras.losses import Loss
 import tensorflow as tf
 from tensorflow.keras import backend as K
-class ContrativeLoss(Loss):
+class ConstrativeLoss(Loss):
     def __init__(self,margin):
         super().__init__()
         self.margin=margin
